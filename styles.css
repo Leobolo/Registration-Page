@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    font-size: 16px;
+}
+.text{
+    width: 40%;
+    margin: 40vh 0 0 7vw;
+    height: 100vh;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.par{
+    width: 70%;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+}
+.pricing{
+    background-color:hsl(248, 32%, 49%) ;
+    width: 40%;
+    margin: 120px 10vw 0px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 7px red ;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    
+}
+.try{
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.form-container{
+    background-color: #fff;
+    width: 40%;
+    margin: 20px 10vw 0px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+}
+
+.input{
+    position: relative;
+    display: block;
+    width: 90%;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 18px;
+    line-height: 2;
+    margin: 20px auto 10px auto;
+    padding: 4px 1px 4px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.btn{
+    background-color: hsl(154, 59%, 51%);
+    width: 90%;
+    margin: 20px 20px;
+    border: 1px solid hsl(154, 59%, 51%);
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #fff;
+}
+.terms{
+    font-size: small;
+    font-weight: 400;
+    color: hsl(246, 25%, 77%);
+    width: 90%;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 100%, 74%) ;
+}
+@media only screen and (max-width:375px){
+    body{
+        background-image: url(./images/bg-intro-mobile.png);
+    }
+    .text{
+        float: none;
+        width: 100%;
+        margin: 60px 0 0 7px;
+        height: fit-content;
+    }
+    .par{
+        font-size: medium;
+        text-align: center;
+        width: 80%;
+        margin: 20px auto 0px 15px;
+   }
+    .pricing{
+        float: none;
+        width: 80%;
+        margin: 100px auto 40px auto;
+        padding: 15px;
+    }
+    .try{
+        text-align: center;
+    }  
+    .form-container{
+        float: none;
+        width: 80%;
+        margin: 40px auto;
+    }
+    .btn{
+        padding: 15px;
+    }
+    .terms{
+        text-align: center;
+    }
+}
